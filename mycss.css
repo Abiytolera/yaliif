@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+    margin: 0; /* Removes default margin */
+    background-image: url('background.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+/* Styles for images */
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.button-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+.button-list li {
+    display: inline; /* Display list items inline */
+}
+
+/* Positioning for the top-right corner */
+.login-link {
+    float: right; /* Float the login link to the right */
+    margin-top: 10px; /* Add margin to the top */
+}
+.contact-link {
+    position: bottom;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 10px; /* Add margin to the top */
+}
+
+/* Positioning for the top-right corner */
+.contact {
+    float: bottom; /* Float the login link to the right */
+    margin-top: 10px; /* Add margin to the top */
+}
+/* Define styles for anchor tags (links) */
+.custom-link {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    transition-duration: 0.4s; /* Transition duration */
+    cursor: pointer; /* Cursor pointer */
+}
+
+/* Change the background color on hover */
+.custom-link:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+body.centered {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Additional styles for labels if needed */
+label {
+    width: 100px; /* Set a fixed width for labels if needed */
+}
